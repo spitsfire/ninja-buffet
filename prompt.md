@@ -2,7 +2,7 @@
 
 Taking what we've learned from the **Human** and **Wizard, Ninja, Samurai** assignments, let's explore how different classes can interact with one another using private properties, public getters, and class methods.
 
-For the everday ninja on a lunch break there is Ninja Buffet! It's All-You-Can-Eat, serving the hardworking ninjas of this world based on the five taste senses and calorie intake. Please note, we will be revisiting your work here in a later assignment.
+For the everday ninja on a lunch break there is Ninja Buffet! It's All-You-Can-Eat, serving the hardworking ninjas of this world based on the six taste senses and calorie intake. Please note, we will be revisiting your work here in a later assignment.
 
 ## Tasks:
 
@@ -47,7 +47,7 @@ class Ninja
 
         // add a public "getter" property called "isFull" that returns a boolean based on if the Ninja's calorie intake is greater than 1200 calories
 
-        // build out the Eat method that: adds calorie value to ninja's total calorieIntake, adds the Food object to ninja's foodHistory list, consoles food's name and taste, and consoles a warning when ninja is full and cannot eat anymore
+        // build out the Eat method that: adds calorie value to ninja's total calorieIntake, adds the randomly selected Food object to ninja's foodHistory list, consoles food's name and taste, and consoles a warning when ninja is full and cannot eat anymore
         public void Eat(Food item)
         {
         }
