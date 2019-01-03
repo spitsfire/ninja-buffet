@@ -10,10 +10,10 @@ class Buffet
         {
             Menu = new List<Food>()
             {
-                new Food("Pizza", 800, "savory"),
-                new Food("Asparagus", 80, "bitter"),
-                new Food("Burrito", 600, "spicy"),
-                new Food("Crab Legs", 100, "savory"),
+                new Food("Pizza", 800, false, false),
+                new Food("Asparagus", 80, false, false),
+                new Food("Burrito", 600, true, false),
+                new Food("Crab Legs", 100, false, false),
             };
         }
         public Food Serve()

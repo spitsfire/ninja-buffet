@@ -7,13 +7,15 @@ namespace NinjaBuffet
     {
         public string Name;
         public int Calories;
-        public string Taste;
+        public bool isSpicy;
+        public bool isSweet;
 
-        public Food(string name, int calories, string taste)
+        public Food(string name, int calories, bool spicy, bool sweet)
         {
             Name = name;
             Calories = calories;
-            Taste = taste;
+            isSpicy = spicy;
+            isSweet = sweet;
         }
     }
 }

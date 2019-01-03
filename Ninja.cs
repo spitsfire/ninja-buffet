@@ -21,7 +21,7 @@ namespace NinjaBuffet
         {
             if(!IsFull)
             {
-                Console.WriteLine($"Ninja digs in to some {item.Taste.ToLower()} {item.Name}.");
+                Console.WriteLine($"Ninja digs in to some delicious {item.Name}.");
                 calorieIntake += item.Calories;
                 foodHistory.Add(item);
             }
